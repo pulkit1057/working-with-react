@@ -32,6 +32,10 @@ body {
 
 main {
   padding: 60px 30px;
+  background-image: url('./assets/B_w.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 65%;
 }
 
 main>h1 {
@@ -47,4 +51,9 @@ main>h1 {
 .facts-list>li {
   padding-block: 10px;
   line-height: 19px;
+}
+
+.facts-list>li::marker{
+  color: #6cd9f7;
+  font-size: 1.25rem;
 }
